@@ -1,0 +1,14 @@
+﻿__pycache__/
+*.py[cod]
+.env
+venv/
+*.pt
+*.pth
+*.bin
+models/
+outputs/
+*.wav
+*.mp3
+frontend/.next/
+frontend/node_modules/
+.DS_Store
