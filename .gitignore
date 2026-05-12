@@ -2,6 +2,7 @@
 *.py[cod]
 .env
 venv/
+myenv/
 *.pt
 *.pth
 *.bin

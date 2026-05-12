@@ -1,4 +1,4 @@
-﻿# Text-to-Music Generation with Style Control
+# Text-to-Music Generation with Style Control
 
 Projet Deep Learning — Generation musicale a partir de texte avec transfert de style.
 
@@ -14,6 +14,14 @@ Projet Deep Learning — Generation musicale a partir de texte avec transfert de
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
+
+## Lancer le frontend
+
+cd frontend
+npm install
+npm run dev
+
+Le frontend tourne sur http://localhost:3000 et appelle le backend sur http://localhost:8000 par defaut.
 
 ## Endpoints
 
