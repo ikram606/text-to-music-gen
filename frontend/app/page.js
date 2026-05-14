@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useMemo, useState } from "react";
 
@@ -157,7 +157,7 @@ export default function HomePage() {
           <div className="hero-pills">
             <span>5-second reference audio</span>
             <span>Prompt-guided generation</span>
-            <span>FastAPI-ready frontend</span>
+            
           </div>
         </div>
         <div className="hero-panel">
