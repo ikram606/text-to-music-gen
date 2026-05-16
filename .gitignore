@@ -13,3 +13,7 @@ outputs/
 frontend/.next/
 frontend/node_modules/
 .DS_Store
+ml/create_test.py
+ml/sandbox.py
+ml/styled_result.wav
+ml/styled_result0.wav

@@ -1,0 +1,8 @@
+cat << 'EOF' > .dockerignore
+myenv/
+.git/
+.gitignore
+README.md
+api/outputs/
+api/temp/
+EOF

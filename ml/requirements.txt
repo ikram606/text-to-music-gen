@@ -1,3 +1,5 @@
-﻿audiocraft @ git+https://github.com/facebookresearch/audiocraft.git
-torch>=2.1.0
-torchaudio>=2.1.0
+﻿torch==2.1.0
+av==12.3.0
+audiocraft
+transformers==4.39.3
+torchaudio==2.1.0 
