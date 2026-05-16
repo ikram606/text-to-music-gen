@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  # Your existing AI generation engine
+  backend:
+    image: addicteduser00/text-to-music-api:latest
+    container_name: music_backend
+    ports:
+      - "8000:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    volumes:
+      - ./api/outputs:/app/api/outputs
+
+  # A brand-new, lightweight Node container for the UI
+  frontend:
+    image: node:20-alpine
+    container_name: music_frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
