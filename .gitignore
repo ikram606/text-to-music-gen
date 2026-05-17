@@ -17,3 +17,5 @@ ml/create_test.py
 ml/sandbox.py
 ml/styled_result.wav
 ml/styled_result0.wav
+/venv310
+install-pyenv-win.ps1
